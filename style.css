@@ -36,7 +36,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #303030;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 nav ul li a:hover{
@@ -50,9 +50,10 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 40px;
 }
 
@@ -63,37 +64,37 @@ nav ul li a:hover{
 }
 
 .btn{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: #dee4f0;
     border: none;
     border-radius: 30px;
 }
 .button{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: #DE1318;
     color: white;
     border: none;
     border-radius: 30px;
 }
 .button1{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: #DE1318;
     color: white;
     border: none;
     border-radius: 30px;
 }
 .button2{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 40px;
     background-color: #102147;
 }
@@ -101,21 +102,22 @@ nav ul li a:hover{
 .buttons{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .left-card{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 700px;
+    width: 800px;
 }
 .left-card h1{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .left-card p{
-    font-size: 20px;
+    font-size: 14px;
+    width: 400px;
 }
 
 .image{
@@ -125,8 +127,8 @@ nav ul li a:hover{
 }
 
 .image1{
-    width: 750px;
-    height: 350px;
+    width: 550px;
+    height: 250px;
     border-radius: 30px;
 }
 
@@ -137,7 +139,7 @@ nav ul li a:hover{
 }
 
 .img img{
-    width: 372px;
+    width: 272px;
     border-radius: 30px;
 }
 
@@ -145,6 +147,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 60px;
     background-image: url(Frame\ 5.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,8 +157,8 @@ nav ul li a:hover{
 .left-image img{
     padding-top: 150px;
     padding-left: 100px;
-    width: 750px;
-    height: 750px;
+    width: 550px;
+    height: 550px;
 
 }
 
@@ -169,7 +172,7 @@ nav ul li a:hover{
     flex-direction: row;
     align-items: center;
     gap: 15px;
-    width: 700px;
+    width: 550px;
     border: 1px solid rgb(223, 223, 223);
     padding: 20px;
     border-radius: 15px;
@@ -181,22 +184,22 @@ nav ul li a:hover{
 .txt{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 .txt h2{
-    font-size: 40px;
+    font-size: 30px;
     color: #102147;
 }
 .txt p{
-    font-size: 20px;
+    font-size: 16px;
 }
 .right-text{
     padding-top: 150px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    width: 700px;
+    gap: 25px;
+    width: 600px;
     margin-right: 100px;
 }
 
@@ -215,24 +218,24 @@ nav ul li a:hover{
     flex-direction: column;
     gap: 25px;
     width: 1000px;
-    padding-top: 150px;
+    padding-top: 80px;
     padding-left: 100px;
 }
 
 .top-content h2{
-    font-size: 40px;
+    font-size: 30px;
     color: #102147;
 }
 
 .top-content p{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
 .cards-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 100px;
+    gap: 50px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -241,10 +244,10 @@ nav ul li a:hover{
     display: flex;
     gap: 20px;
     align-items: center;
-    width: 500px;
+    width: 360px;
     border: 1px solid rgb(221, 221, 221);
     border-radius: 20px;
-    padding: 50px;
+    padding: 30px;
 }
 .name{
     display: flex;
@@ -265,6 +268,7 @@ nav ul li a:hover{
 .cards-flex{
     display: flex;
     justify-content: space-between;
+    gap: 15px;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
@@ -273,14 +277,14 @@ nav ul li a:hover{
 .wide-card{
     /* display: flex;
     flex-direction: column; */
-    width: 400px;
+    width: 300px;
     border: 1px solid rgb(221, 221, 221);
     border-radius: 20px;
 }
 
 .card-img{
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 299px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -307,7 +311,7 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -315,18 +319,18 @@ nav ul li a:hover{
 .head{
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap:15px;
 }
 
 .head h2{
-    font-size: 48px;
+    font-size: 38px;
     color: #102147;
 }
 
 .row-container{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 .row{
@@ -337,7 +341,7 @@ nav ul li a:hover{
 
 
 .row p{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 hr{
@@ -350,7 +354,7 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50px; */
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .container{
@@ -376,18 +380,17 @@ hr{
 
 .money1{
     position: absolute;
-    right: 850px;
+    right: 500px;
     top: 100px;
 }
 
-.money2{
+
+.money23{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
     position: absolute;
-    right: 1100px;
-    top: 300px;
-}
-.money3{
-    position: absolute;
-    right: 600px;
+    right: 230px;
     top: 300px;
 }
 h1 img{
