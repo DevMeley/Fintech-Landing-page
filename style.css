@@ -40,9 +40,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    padding: 15px;
-    background-color: rgb(1, 1, 77);
-    color: white;
+    text-decoration: underline;
+    color: #102147;
     border-radius: 10px;
 }
 
@@ -57,11 +56,17 @@ nav ul li a:hover{
     padding-bottom: 40px;
 }
 
+.hamburger{
+    display: none;
+}
+
 #btn{
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
+
+
 
 .btn{
     padding-top: 15px;
@@ -514,6 +519,10 @@ footer{
         border-radius: 20px;
         font-size: 12px;
     }
+
+    .hamburger{
+        display: none;
+    }
     .button{
         padding-top: 15px;
         padding-bottom: 15px;
@@ -823,4 +832,286 @@ footer{
         margin-top: 50px;
     }
 
+}
+
+@media screen and (max-width:899px) {
+
+    nav{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    nav ul li a{
+        display: none ;
+    }
+
+    #btn{
+        display: none;
+    }
+
+    .hamburger{
+        display: contents;
+        color: #303030;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .left-card{
+        text-align: center;
+        align-items: center;
+    }
+
+    .left-card p{
+        width: 600px;
+    }
+
+    .image .image1{
+        width: 600px;
+        height: 300px;
+    }
+
+    .img img{
+        width: 295px;
+    }
+
+    /* Section1 */
+
+    #section1{
+        flex-direction: column;
+    }
+
+    .right-text{
+        align-items: center;
+        padding-top: 20px;
+        width: 700px;
+        margin-right: 40px;
+        margin-left: 40px
+        
+
+    }
+
+    .txt p{
+        text-align: center;
+        width: 640px;
+        
+    }
+
+    .txt h2{
+        text-align: center;
+    }
+
+    .left-image .image2{
+        width: 650px;
+    }
+
+    .top-content{
+        align-items: center;
+        width: 600px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .top-content p{
+        text-align: center;
+        width: 600px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .cards-grid{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 40px;
+    }
+
+    .cards{
+        width: 250px;
+    }
+
+    .cards-flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container{
+        background-image: url(Rectangle\ 13.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50px;
+        height: 400px;
+        width: 600px;
+        margin-left: 60px;
+        margin-right: 60px;
+        position: relative;
+    }
+
+    .money23{
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        position: absolute;
+        right: 110px;
+        top: 250px;
+    }
+
+    .money1{
+        right: 230px;
+        top: 70px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav ul li a{
+        display: none ;
+    }
+
+    #btn{
+        display: none;
+    }
+
+    .hamburger{
+        display: contents;
+        color: #303030;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .left-card{
+        text-align: center;
+        align-items: center;
+    }
+
+    .left-card p{
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .left-card h1{
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .image .image1{
+        width: 400px;
+        height: 200px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .img img{
+        width: 216px;
+    }
+
+    /* Section1 */
+
+    #section1{
+        flex-direction: column;
+    }
+
+    .right-text{
+        align-items: center;
+        padding-top: 20px;
+        width: 300px;
+        margin-right: 40px;
+        margin-left: 40px
+        
+
+    }
+
+    .txt p{
+        text-align: center;
+        width: 340px;
+        
+    }
+
+    .txt h2{
+        text-align: center;
+    }
+
+    .left-image .image2{
+        width: 450px;
+    }
+
+    .top-content{
+        align-items: center;
+        margin-top: 20px;
+        width: 300px;
+        margin-right: 40px;
+        margin-left: 40px
+    }
+
+    .top-content h2{
+        text-align: center;
+    }
+
+    .top-content p{
+        
+        width: 300px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .cards-grid{
+        grid-template-columns: 1fr;
+        margin-left: 40px;
+    }
+
+    .cards{
+        width: 250px;
+    }
+
+    .cards-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        background-image: url(Rectangle\ 13.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50px;
+        height: 700px;
+        width: 300px;
+        margin-left: 60px;
+        margin-right: 60px;
+        position: relative;
+    }
+
+    .money23{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 100px;
+        position: absolute;
+        right: 110px;
+        top: 250px;
+        border-radius: 20px;
+    }
+
+    .money1{
+        right: 230px;
+        top: 70px;
+    }
+
+    
+    #footer1{
+        flex-direction: column;
+    }
+
+    .socials{
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contact p{
+        width: 300px;
+    }
 }
